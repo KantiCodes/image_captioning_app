@@ -1,0 +1,33 @@
+[LOGGING]
+
+# Format style used to check logging format string. `old` means using %
+# formatting, while `new` is for `{}` formatting.
+logging-format-style=old
+
+[SIMILARITIES]
+
+# Minimum lines number of a similarity.
+min-similarity-lines=10
+
+# Ignore comments when computing similarities.
+ignore-comments=yes
+
+# Ignore docstrings when computing similarities.
+ignore-docstrings=yes
+
+# Ignore imports when computing similarities.
+ignore-imports=no
+
+disable=
+    C0103,
+    # snake case styling
+    C0114, 
+    # missing-module-docstring
+    C0115,
+    missing-class-docstring
+    C0116,
+    # missing-function-docstring 
+    W0703,
+    # catching-too-general-exception
+    C0411,
+    # wrong-import-order

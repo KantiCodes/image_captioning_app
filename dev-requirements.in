@@ -1,2 +1,21 @@
-pytest
 kivy
+python-dotenv
+
+# Style and lint
+black
+mypy
+pytest-cov
+pytest-mock
+safety
+flake8
+flake8-docstrings
+flake8-bandit
+flake8-bugbear
+flake8-deprecated
+flake8-executable
+flake8-black
+pylint
+
+# Testing
+hypothesis
+pytest
